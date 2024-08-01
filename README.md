@@ -4,7 +4,6 @@ A data modeling project utilizing PostgreSQL and pgAdmin, running on Docker cont
 
 ### Add a Docker Compose Setup with PostgreSQL and pgAdmin4
 
-
 #### Steps:
 
 1. Create a docker-compose.yml file under the root directory
