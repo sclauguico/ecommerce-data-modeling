@@ -1,0 +1,482 @@
+[
+    {
+        "data": {
+            "orderCode": "PH12345678",
+            "orderFulfilledBy": "Lazada",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "1001",
+                        "state": "Metro Manila",
+                        "suburb": "Quiapo"
+                    },
+                    "id": 1001
+                },
+                "datePurchased": "2023-05-15T10:15:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "1001",
+                    "state": "Metro Manila",
+                    "suburb": "Quiapo"
+                },
+                "id": 567890,
+                "lines": [
+                    {
+                        "id": 234567,
+                        "product": {
+                            "id": 123456,
+                            "sellerId": 10,
+                            "title": "Samsung Galaxy S21"
+                        },
+                        "quantity": 1,
+                        "skuConfig": [
+                            {
+                                "skuId": 345678,
+                                "quantity": 1,
+                                "lineItemNo": 1,
+                                "salePrice": "35000.00",
+                                "lineTotal": "35000.00",
+                                "gstTotal": "4200.00",
+                                "shipTotal": "150.00",
+                                "shipDiscountTotal": "50.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 35000,
+                    "currency": "PHP",
+                    "discountAmount": 50,
+                    "method": "GCash",
+                    "orderTotal": 35000,
+                    "shipCost": 150
+                },
+                "salesChannel": {
+                    "code": "LAZADA",
+                    "id": 1
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "orderCode": "PH87654321",
+            "orderFulfilledBy": "Shopee",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "2000",
+                        "state": "Pampanga",
+                        "suburb": "San Fernando"
+                    },
+                    "id": 2000
+                },
+                "datePurchased": "2023-06-20T14:30:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "2000",
+                    "state": "Pampanga",
+                    "suburb": "San Fernando"
+                },
+                "id": 678901,
+                "lines": [
+                    {
+                        "id": 345678,
+                        "product": {
+                            "id": 234567,
+                            "sellerId": 20,
+                            "title": "Nike Air Max"
+                        },
+                        "quantity": 2,
+                        "skuConfig": [
+                            {
+                                "skuId": 456789,
+                                "quantity": 2,
+                                "lineItemNo": 1,
+                                "salePrice": "7000.00",
+                                "lineTotal": "14000.00",
+                                "gstTotal": "1680.00",
+                                "shipTotal": "200.00",
+                                "shipDiscountTotal": "0.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 14000,
+                    "currency": "PHP",
+                    "discountAmount": 0,
+                    "method": "COD",
+                    "orderTotal": 14000,
+                    "shipCost": 200
+                },
+                "salesChannel": {
+                    "code": "SHOPEE",
+                    "id": 2
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "orderCode": "PH11223344",
+            "orderFulfilledBy": "Lazada",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "4000",
+                        "state": "Laguna",
+                        "suburb": "Calamba"
+                    },
+                    "id": 3000
+                },
+                "datePurchased": "2023-07-10T08:45:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "4000",
+                    "state": "Laguna",
+                    "suburb": "Calamba"
+                },
+                "id": 789012,
+                "lines": [
+                    {
+                        "id": 456789,
+                        "product": {
+                            "id": 345678,
+                            "sellerId": 30,
+                            "title": "Apple MacBook Pro"
+                        },
+                        "quantity": 1,
+                        "skuConfig": [
+                            {
+                                "skuId": 567890,
+                                "quantity": 1,
+                                "lineItemNo": 1,
+                                "salePrice": "120000.00",
+                                "lineTotal": "120000.00",
+                                "gstTotal": "14400.00",
+                                "shipTotal": "500.00",
+                                "shipDiscountTotal": "100.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 120000,
+                    "currency": "PHP",
+                    "discountAmount": 100,
+                    "method": "Credit Card",
+                    "orderTotal": 120000,
+                    "shipCost": 500
+                },
+                "salesChannel": {
+                    "code": "LAZADA",
+                    "id": 1
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "orderCode": "PH44556677",
+            "orderFulfilledBy": "Shopee",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "6000",
+                        "state": "Cebu",
+                        "suburb": "Cebu City"
+                    },
+                    "id": 4000
+                },
+                "datePurchased": "2023-08-01T12:00:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "6000",
+                    "state": "Cebu",
+                    "suburb": "Cebu City"
+                },
+                "id": 890123,
+                "lines": [
+                    {
+                        "id": 567890,
+                        "product": {
+                            "id": 456789,
+                            "sellerId": 40,
+                            "title": "Sony PlayStation 5"
+                        },
+                        "quantity": 1,
+                        "skuConfig": [
+                            {
+                                "skuId": 678901,
+                                "quantity": 1,
+                                "lineItemNo": 1,
+                                "salePrice": "30000.00",
+                                "lineTotal": "30000.00",
+                                "gstTotal": "3600.00",
+                                "shipTotal": "300.00",
+                                "shipDiscountTotal": "50.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 30000,
+                    "currency": "PHP",
+                    "discountAmount": 50,
+                    "method": "PayMaya",
+                    "orderTotal": 30000,
+                    "shipCost": 300
+                },
+                "salesChannel": {
+                    "code": "SHOPEE",
+                    "id": 2
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "orderCode": "PH55667788",
+            "orderFulfilledBy": "Lazada",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "5000",
+                        "state": "Iloilo",
+                        "suburb": "Iloilo City"
+                    },
+                    "id": 5000
+                },
+                "datePurchased": "2023-09-05T09:15:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "5000",
+                    "state": "Iloilo",
+                    "suburb": "Iloilo City"
+                },
+                "id": 901234,
+                "lines": [
+                    {
+                        "id": 678901,
+                        "product": {
+                            "id": 567890,
+                            "sellerId": 50,
+                            "title": "Dell Inspiron 15"
+                        },
+                        "quantity": 1,
+                        "skuConfig": [
+                            {
+                                "skuId": 789012,
+                                "quantity": 1,
+                                "lineItemNo": 1,
+                                "salePrice": "45000.00",
+                                "lineTotal": "45000.00",
+                                "gstTotal": "5400.00",
+                                "shipTotal": "250.00",
+                                "shipDiscountTotal": "0.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 45000,
+                    "currency": "PHP",
+                    "discountAmount": 0,
+                    "method": "Bank Transfer",
+                    "orderTotal": 45000,
+                    "shipCost": 250
+                },
+                "salesChannel": {
+                    "code": "LAZADA",
+                    "id": 1
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "orderCode": "PH66778899",
+            "orderFulfilledBy": "Shopee",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "3000",
+                        "state": "Bulacan",
+                        "suburb": "Malolos"
+                    },
+                    "id": 6000
+                },
+                "datePurchased": "2023-10-12T11:30:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "3000",
+                    "state": "Bulacan",
+                    "suburb": "Malolos"
+                },
+                "id": 123456,
+                "lines": [
+                    {
+                        "id": 789012,
+                        "product": {
+                            "id": 678901,
+                            "sellerId": 60,
+                            "title": "HP Envy 13"
+                        },
+                        "quantity": 1,
+                        "skuConfig": [
+                            {
+                                "skuId": 890123,
+                                "quantity": 1,
+                                "lineItemNo": 1,
+                                "salePrice": "55000.00",
+                                "lineTotal": "55000.00",
+                                "gstTotal": "6600.00",
+                                "shipTotal": "300.00",
+                                "shipDiscountTotal": "100.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 55000,
+                    "currency": "PHP",
+                    "discountAmount": 100,
+                    "method": "Credit Card",
+                    "orderTotal": 55000,
+                    "shipCost": 300
+                },
+                "salesChannel": {
+                    "code": "SHOPEE",
+                    "id": 2
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "orderCode": "PH77889900",
+            "orderFulfilledBy": "Lazada",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "7000",
+                        "state": "Zamboanga del Sur",
+                        "suburb": "Zamboanga City"
+                    },
+                    "id": 7000
+                },
+                "datePurchased": "2023-11-20T15:45:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "7000",
+                    "state": "Zamboanga del Sur",
+                    "suburb": "Zamboanga City"
+                },
+                "id": 234567,
+                "lines": [
+                    {
+                        "id": 890123,
+                        "product": {
+                            "id": 789012,
+                            "sellerId": 70,
+                            "title": "Asus ROG Strix"
+                        },
+                        "quantity": 1,
+                        "skuConfig": [
+                            {
+                                "skuId": 901234,
+                                "quantity": 1,
+                                "lineItemNo": 1,
+                                "salePrice": "80000.00",
+                                "lineTotal": "80000.00",
+                                "gstTotal": "9600.00",
+                                "shipTotal": "400.00",
+                                "shipDiscountTotal": "50.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 80000,
+                    "currency": "PHP",
+                    "discountAmount": 50,
+                    "method": "Paypal",
+                    "orderTotal": 80000,
+                    "shipCost": 400
+                },
+                "salesChannel": {
+                    "code": "LAZADA",
+                    "id": 1
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "orderCode": "PH88990011",
+            "orderFulfilledBy": "Shopee",
+            "order": {
+                "customer": {
+                    "address": {
+                        "country": "Philippines",
+                        "postcode": "8000",
+                        "state": "Davao del Sur",
+                        "suburb": "Davao City"
+                    },
+                    "id": 8000
+                },
+                "datePurchased": "2023-12-01T13:00:00+08:00",
+                "delivery": {
+                    "country": "Philippines",
+                    "postcode": "8000",
+                    "state": "Davao del Sur",
+                    "suburb": "Davao City"
+                },
+                "id": 345678,
+                "lines": [
+                    {
+                        "id": 901234,
+                        "product": {
+                            "id": 890123,
+                            "sellerId": 80,
+                            "title": "Acer Predator"
+                        },
+                        "quantity": 1,
+                        "skuConfig": [
+                            {
+                                "skuId": 123456,
+                                "quantity": 1,
+                                "lineItemNo": 1,
+                                "salePrice": "70000.00",
+                                "lineTotal": "70000.00",
+                                "gstTotal": "8400.00",
+                                "shipTotal": "350.00",
+                                "shipDiscountTotal": "0.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "amount": 70000,
+                    "currency": "PHP",
+                    "discountAmount": 0,
+                    "method": "GCash",
+                    "orderTotal": 70000,
+                    "shipCost": 350
+                },
+                "salesChannel": {
+                    "code": "SHOPEE",
+                    "id": 2
+                }
+            }
+        }
+    }
+]
