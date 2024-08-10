@@ -8,8 +8,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "1001",
-                        "state": "Metro Manila",
-                        "suburb": "Quiapo"
+                        "Province": "Metro Manila",
+                        "districtOrCity": "Quiapo"
                     },
                     "id": 1001
                 },
@@ -17,8 +17,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "1001",
-                    "state": "Metro Manila",
-                    "suburb": "Quiapo"
+                    "Province": "Metro Manila",
+                    "districtOrCity": "Quiapo"
                 },
                 "id": 567890,
                 "lines": [
@@ -68,8 +68,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "2000",
-                        "state": "Pampanga",
-                        "suburb": "San Fernando"
+                        "Province": "Pampanga",
+                        "districtOrCity": "San Fernando"
                     },
                     "id": 2000
                 },
@@ -77,8 +77,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "2000",
-                    "state": "Pampanga",
-                    "suburb": "San Fernando"
+                    "Province": "Pampanga",
+                    "districtOrCity": "San Fernando"
                 },
                 "id": 678901,
                 "lines": [
@@ -128,8 +128,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "4000",
-                        "state": "Laguna",
-                        "suburb": "Calamba"
+                        "Province": "Laguna",
+                        "districtOrCity": "Calamba"
                     },
                     "id": 3000
                 },
@@ -137,8 +137,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "4000",
-                    "state": "Laguna",
-                    "suburb": "Calamba"
+                    "Province": "Laguna",
+                    "districtOrCity": "Calamba"
                 },
                 "id": 789012,
                 "lines": [
@@ -188,8 +188,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "6000",
-                        "state": "Cebu",
-                        "suburb": "Cebu City"
+                        "Province": "Cebu",
+                        "districtOrCity": "Cebu City"
                     },
                     "id": 4000
                 },
@@ -197,8 +197,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "6000",
-                    "state": "Cebu",
-                    "suburb": "Cebu City"
+                    "Province": "Cebu",
+                    "districtOrCity": "Cebu City"
                 },
                 "id": 890123,
                 "lines": [
@@ -248,8 +248,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "5000",
-                        "state": "Iloilo",
-                        "suburb": "Iloilo City"
+                        "Province": "Iloilo",
+                        "districtOrCity": "Iloilo City"
                     },
                     "id": 5000
                 },
@@ -257,8 +257,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "5000",
-                    "state": "Iloilo",
-                    "suburb": "Iloilo City"
+                    "Province": "Iloilo",
+                    "districtOrCity": "Iloilo City"
                 },
                 "id": 901234,
                 "lines": [
@@ -308,8 +308,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "3000",
-                        "state": "Bulacan",
-                        "suburb": "Malolos"
+                        "Province": "Bulacan",
+                        "districtOrCity": "Malolos"
                     },
                     "id": 6000
                 },
@@ -317,8 +317,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "3000",
-                    "state": "Bulacan",
-                    "suburb": "Malolos"
+                    "Province": "Bulacan",
+                    "districtOrCity": "Malolos"
                 },
                 "id": 123456,
                 "lines": [
@@ -368,8 +368,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "7000",
-                        "state": "Zamboanga del Sur",
-                        "suburb": "Zamboanga City"
+                        "Province": "Zamboanga del Sur",
+                        "districtOrCity": "Zamboanga City"
                     },
                     "id": 7000
                 },
@@ -377,8 +377,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "7000",
-                    "state": "Zamboanga del Sur",
-                    "suburb": "Zamboanga City"
+                    "Province": "Zamboanga del Sur",
+                    "districtOrCity": "Zamboanga City"
                 },
                 "id": 234567,
                 "lines": [
@@ -428,8 +428,8 @@
                     "address": {
                         "country": "Philippines",
                         "postcode": "8000",
-                        "state": "Davao del Sur",
-                        "suburb": "Davao City"
+                        "Province": "Davao del Sur",
+                        "districtOrCity": "Davao City"
                     },
                     "id": 8000
                 },
@@ -437,8 +437,8 @@
                 "delivery": {
                     "country": "Philippines",
                     "postcode": "8000",
-                    "state": "Davao del Sur",
-                    "suburb": "Davao City"
+                    "Province": "Davao del Sur",
+                    "districtOrCity": "Davao City"
                 },
                 "id": 345678,
                 "lines": [
