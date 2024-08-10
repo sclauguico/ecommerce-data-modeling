@@ -1,480 +1,600 @@
 [
     {
-        "data": {
-            "orderCode": "PH12345678",
-            "orderFulfilledBy": "Lazada",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH12345678",
+            "serviceProvider": "Lazada",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "1001",
-                        "Province": "Metro Manila",
-                        "districtOrCity": "Quiapo"
+                        "nation": "Philippines",
+                        "buyerZip": "1001",
+                        "region": "Metro Manila",
+                        "cityArea": "Quiapo"
                     },
-                    "id": 1001
+                    "buyerId": 1001
                 },
-                "datePurchased": "2023-05-15T10:15:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "1001",
-                    "Province": "Metro Manila",
-                    "districtOrCity": "Quiapo"
+                "purchaseTimestamp": "2023-05-15T10:15:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "1001",
+                    "region": "Metro Manila",
+                    "cityArea": "Quiapo"
                 },
-                "id": 567890,
-                "lines": [
+                "purchaseId": 567890,
+                "items": [
                     {
-                        "id": 234567,
-                        "product": {
-                            "id": 123456,
-                            "sellerId": 10,
-                            "title": "Samsung Galaxy S21"
+                        "transactionLineId": 234567,
+                        "item": {
+                            "productCode": 123456,
+                            "merchantCode": 10,
+                            "itemName": "Samsung Galaxy S21"
                         },
-                        "quantity": 1,
-                        "skuConfig": [
+                        "itemCount": 1,
+                        "configurations": [
                             {
-                                "skuId": 345678,
-                                "quantity": 1,
-                                "lineItemNo": 1,
-                                "salePrice": "35000.00",
-                                "lineTotal": "35000.00",
-                                "gstTotal": "4200.00",
-                                "shipTotal": "150.00",
-                                "shipDiscountTotal": "50.00"
+                                "itemCode": 345678,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "35000.00",
+                                "totalPrice": "35000.00",
+                                "taxTotal": "4200.00",
+                                "shippingFee": "150.00",
+                                "shippingDiscount": "50.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 35000,
+                    "totalPaid": 35000,
                     "currency": "PHP",
-                    "discountAmount": 50,
-                    "method": "GCash",
-                    "orderTotal": 35000,
-                    "shipCost": 150
+                    "discountValue": 50,
+                    "paymentType": "GCash",
+                    "finalTotal": 35000,
+                    "shippingCharge": 150
                 },
-                "salesChannel": {
-                    "code": "LAZADA",
-                    "id": 1
+                "platform": {
+                    "platformCode": "LAZADA",
+                    "platformId": 1
                 }
             }
         }
     },
     {
-        "data": {
-            "orderCode": "PH87654321",
-            "orderFulfilledBy": "Shopee",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH87654321",
+            "serviceProvider": "Shopify",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "2000",
-                        "Province": "Pampanga",
-                        "districtOrCity": "San Fernando"
+                        "nation": "Philippines",
+                        "buyerZip": "2000",
+                        "region": "Pampanga",
+                        "cityArea": "San Fernando"
                     },
-                    "id": 2000
+                    "buyerId": 2000
                 },
-                "datePurchased": "2023-06-20T14:30:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "2000",
-                    "Province": "Pampanga",
-                    "districtOrCity": "San Fernando"
+                "purchaseTimestamp": "2023-06-20T14:30:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "2000",
+                    "region": "Pampanga",
+                    "cityArea": "San Fernando"
                 },
-                "id": 678901,
-                "lines": [
+                "purchaseId": 678901,
+                "items": [
                     {
-                        "id": 345678,
-                        "product": {
-                            "id": 234567,
-                            "sellerId": 20,
-                            "title": "Nike Air Max"
+                        "transactionLineId": 345678,
+                        "item": {
+                            "productCode": 234567,
+                            "merchantCode": 20,
+                            "itemName": "Nike Air Max"
                         },
-                        "quantity": 2,
-                        "skuConfig": [
+                        "itemCount": 2,
+                        "configurations": [
                             {
-                                "skuId": 456789,
-                                "quantity": 2,
-                                "lineItemNo": 1,
-                                "salePrice": "7000.00",
-                                "lineTotal": "14000.00",
-                                "gstTotal": "1680.00",
-                                "shipTotal": "200.00",
-                                "shipDiscountTotal": "0.00"
+                                "itemCode": 456789,
+                                "configQuantity": 2,
+                                "lineNumber": 1,
+                                "itemPrice": "7000.00",
+                                "totalPrice": "14000.00",
+                                "taxTotal": "1680.00",
+                                "shippingFee": "200.00",
+                                "shippingDiscount": "0.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 14000,
+                    "totalPaid": 14000,
                     "currency": "PHP",
-                    "discountAmount": 0,
-                    "method": "COD",
-                    "orderTotal": 14000,
-                    "shipCost": 200
+                    "discountValue": 0,
+                    "paymentType": "COD",
+                    "finalTotal": 14000,
+                    "shippingCharge": 200
                 },
-                "salesChannel": {
-                    "code": "SHOPEE",
-                    "id": 2
+                "platform": {
+                    "platformCode": "SHOPEE",
+                    "platformId": 2
                 }
             }
         }
     },
     {
-        "data": {
-            "orderCode": "PH11223344",
-            "orderFulfilledBy": "Lazada",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH11223344",
+            "serviceProvider": "Lazapee",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "4000",
-                        "Province": "Laguna",
-                        "districtOrCity": "Calamba"
+                        "nation": "Philippines",
+                        "buyerZip": "4000",
+                        "region": "Laguna",
+                        "cityArea": "Calamba"
                     },
-                    "id": 3000
+                    "buyerId": 3000
                 },
-                "datePurchased": "2023-07-10T08:45:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "4000",
-                    "Province": "Laguna",
-                    "districtOrCity": "Calamba"
+                "purchaseTimestamp": "2023-07-10T08:45:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "4000",
+                    "region": "Laguna",
+                    "cityArea": "Calamba"
                 },
-                "id": 789012,
-                "lines": [
+                "purchaseId": 789012,
+                "items": [
                     {
-                        "id": 456789,
-                        "product": {
-                            "id": 345678,
-                            "sellerId": 30,
-                            "title": "Apple MacBook Pro"
+                        "transactionLineId": 456789,
+                        "item": {
+                            "productCode": 345678,
+                            "merchantCode": 30,
+                            "itemName": "Apple MacBook Pro"
                         },
-                        "quantity": 1,
-                        "skuConfig": [
+                        "itemCount": 1,
+                        "configurations": [
                             {
-                                "skuId": 567890,
-                                "quantity": 1,
-                                "lineItemNo": 1,
-                                "salePrice": "120000.00",
-                                "lineTotal": "120000.00",
-                                "gstTotal": "14400.00",
-                                "shipTotal": "500.00",
-                                "shipDiscountTotal": "100.00"
+                                "itemCode": 567890,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "120000.00",
+                                "totalPrice": "120000.00",
+                                "taxTotal": "14400.00",
+                                "shippingFee": "500.00",
+                                "shippingDiscount": "100.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 120000,
+                    "totalPaid": 120000,
                     "currency": "PHP",
-                    "discountAmount": 100,
-                    "method": "Credit Card",
-                    "orderTotal": 120000,
-                    "shipCost": 500
+                    "discountValue": 100,
+                    "paymentType": "Credit Card",
+                    "finalTotal": 120000,
+                    "shippingCharge": 500
                 },
-                "salesChannel": {
-                    "code": "LAZADA",
-                    "id": 1
+                "platform": {
+                    "platformCode": "LAZADA",
+                    "platformId": 1
                 }
             }
         }
     },
     {
-        "data": {
-            "orderCode": "PH44556677",
-            "orderFulfilledBy": "Shopee",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH44556677",
+            "serviceProvider": "Shopida",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "6000",
-                        "Province": "Cebu",
-                        "districtOrCity": "Cebu City"
+                        "nation": "Philippines",
+                        "buyerZip": "6000",
+                        "region": "Cebu",
+                        "cityArea": "Cebu City"
                     },
-                    "id": 4000
+                    "buyerId": 4000
                 },
-                "datePurchased": "2023-08-01T12:00:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "6000",
-                    "Province": "Cebu",
-                    "districtOrCity": "Cebu City"
+                "purchaseTimestamp": "2023-08-01T12:00:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "6000",
+                    "region": "Cebu",
+                    "cityArea": "Cebu City"
                 },
-                "id": 890123,
-                "lines": [
+                "purchaseId": 890123,
+                "items": [
                     {
-                        "id": 567890,
-                        "product": {
-                            "id": 456789,
-                            "sellerId": 40,
-                            "title": "Sony PlayStation 5"
+                        "transactionLineId": 567890,
+                        "item": {
+                            "productCode": 456789,
+                            "merchantCode": 40,
+                            "itemName": "Sony PlayStation 5"
                         },
-                        "quantity": 1,
-                        "skuConfig": [
+                        "itemCount": 1,
+                        "configurations": [
                             {
-                                "skuId": 678901,
-                                "quantity": 1,
-                                "lineItemNo": 1,
-                                "salePrice": "30000.00",
-                                "lineTotal": "30000.00",
-                                "gstTotal": "3600.00",
-                                "shipTotal": "300.00",
-                                "shipDiscountTotal": "50.00"
+                                "itemCode": 678901,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "30000.00",
+                                "totalPrice": "30000.00",
+                                "taxTotal": "3600.00",
+                                "shippingFee": "300.00",
+                                "shippingDiscount": "50.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 30000,
+                    "totalPaid": 30000,
                     "currency": "PHP",
-                    "discountAmount": 50,
-                    "method": "PayMaya",
-                    "orderTotal": 30000,
-                    "shipCost": 300
+                    "discountValue": 50,
+                    "paymentType": "PayMaya",
+                    "finalTotal": 30000,
+                    "shippingCharge": 300
                 },
-                "salesChannel": {
-                    "code": "SHOPEE",
-                    "id": 2
+                "platform": {
+                    "platformCode": "SHOPEE",
+                    "platformId": 2
                 }
             }
         }
     },
     {
-        "data": {
-            "orderCode": "PH55667788",
-            "orderFulfilledBy": "Lazada",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH55667788",
+            "serviceProvider": "Lazada",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "5000",
-                        "Province": "Iloilo",
-                        "districtOrCity": "Iloilo City"
+                        "nation": "Philippines",
+                        "buyerZip": "5000",
+                        "region": "Iloilo",
+                        "cityArea": "Iloilo City"
                     },
-                    "id": 5000
+                    "buyerId": 5000
                 },
-                "datePurchased": "2023-09-05T09:15:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "5000",
-                    "Province": "Iloilo",
-                    "districtOrCity": "Iloilo City"
+                "purchaseTimestamp": "2023-09-05T09:15:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "5000",
+                    "region": "Iloilo",
+                    "cityArea": "Iloilo City"
                 },
-                "id": 901234,
-                "lines": [
+                "purchaseId": 901234,
+                "items": [
                     {
-                        "id": 678901,
-                        "product": {
-                            "id": 567890,
-                            "sellerId": 50,
-                            "title": "Dell Inspiron 15"
+                        "transactionLineId": 678901,
+                        "item": {
+                            "productCode": 567890,
+                            "merchantCode": 50,
+                            "itemName": "Dell Inspiron 15"
                         },
-                        "quantity": 1,
-                        "skuConfig": [
+                        "itemCount": 1,
+                        "configurations": [
                             {
-                                "skuId": 789012,
-                                "quantity": 1,
-                                "lineItemNo": 1,
-                                "salePrice": "45000.00",
-                                "lineTotal": "45000.00",
-                                "gstTotal": "5400.00",
-                                "shipTotal": "250.00",
-                                "shipDiscountTotal": "0.00"
+                                "itemCode": 789012,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "45000.00",
+                                "totalPrice": "45000.00",
+                                "taxTotal": "5400.00",
+                                "shippingFee": "250.00",
+                                "shippingDiscount": "0.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 45000,
+                    "totalPaid": 45000,
                     "currency": "PHP",
-                    "discountAmount": 0,
-                    "method": "Bank Transfer",
-                    "orderTotal": 45000,
-                    "shipCost": 250
+                    "discountValue": 0,
+                    "paymentType": "Bank Transfer",
+                    "finalTotal": 45000,
+                    "shippingCharge": 250
                 },
-                "salesChannel": {
-                    "code": "LAZADA",
-                    "id": 1
+                "platform": {
+                    "platformCode": "LAZADA",
+                    "platformId": 1
                 }
             }
         }
     },
     {
-        "data": {
-            "orderCode": "PH66778899",
-            "orderFulfilledBy": "Shopee",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH66778899",
+            "serviceProvider": "Shopee",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "3000",
-                        "Province": "Bulacan",
-                        "districtOrCity": "Malolos"
+                        "nation": "Philippines",
+                        "buyerZip": "3000",
+                        "region": "Bulacan",
+                        "cityArea": "Malolos"
                     },
-                    "id": 6000
+                    "buyerId": 6000
                 },
-                "datePurchased": "2023-10-12T11:30:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "3000",
-                    "Province": "Bulacan",
-                    "districtOrCity": "Malolos"
+                "purchaseTimestamp": "2023-10-12T11:30:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "3000",
+                    "region": "Bulacan",
+                    "cityArea": "Malolos"
                 },
-                "id": 123456,
-                "lines": [
+                "purchaseId": 123456,
+                "items": [
                     {
-                        "id": 789012,
-                        "product": {
-                            "id": 678901,
-                            "sellerId": 60,
-                            "title": "HP Envy 13"
+                        "transactionLineId": 789012,
+                        "item": {
+                            "productCode": 678901,
+                            "merchantCode": 60,
+                            "itemName": "HP Envy 13"
                         },
-                        "quantity": 1,
-                        "skuConfig": [
+                        "itemCount": 1,
+                        "configurations": [
                             {
-                                "skuId": 890123,
-                                "quantity": 1,
-                                "lineItemNo": 1,
-                                "salePrice": "55000.00",
-                                "lineTotal": "55000.00",
-                                "gstTotal": "6600.00",
-                                "shipTotal": "300.00",
-                                "shipDiscountTotal": "100.00"
+                                "itemCode": 890123,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "55000.00",
+                                "totalPrice": "55000.00",
+                                "taxTotal": "6600.00",
+                                "shippingFee": "300.00",
+                                "shippingDiscount": "100.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 55000,
+                    "totalPaid": 55000,
                     "currency": "PHP",
-                    "discountAmount": 100,
-                    "method": "Credit Card",
-                    "orderTotal": 55000,
-                    "shipCost": 300
+                    "discountValue": 100,
+                    "paymentType": "Credit Card",
+                    "finalTotal": 55000,
+                    "shippingCharge": 300
                 },
-                "salesChannel": {
-                    "code": "SHOPEE",
-                    "id": 2
+                "platform": {
+                    "platformCode": "SHOPEE",
+                    "platformId": 2
                 }
             }
         }
     },
     {
-        "data": {
-            "orderCode": "PH77889900",
-            "orderFulfilledBy": "Lazada",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH77889900",
+            "serviceProvider": "Lazada",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "7000",
-                        "Province": "Zamboanga del Sur",
-                        "districtOrCity": "Zamboanga City"
+                        "nation": "Philippines",
+                        "buyerZip": "7000",
+                        "region": "Zamboanga del Sur",
+                        "cityArea": "Zamboanga City"
                     },
-                    "id": 7000
+                    "buyerId": 7000
                 },
-                "datePurchased": "2023-11-20T15:45:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "7000",
-                    "Province": "Zamboanga del Sur",
-                    "districtOrCity": "Zamboanga City"
+                "purchaseTimestamp": "2023-11-20T15:45:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "7000",
+                    "region": "Zamboanga del Sur",
+                    "cityArea": "Zamboanga City"
                 },
-                "id": 234567,
-                "lines": [
+                "purchaseId": 234567,
+                "items": [
                     {
-                        "id": 890123,
-                        "product": {
-                            "id": 789012,
-                            "sellerId": 70,
-                            "title": "Asus ROG Strix"
+                        "transactionLineId": 890123,
+                        "item": {
+                            "productCode": 789012,
+                            "merchantCode": 70,
+                            "itemName": "Asus ROG Strix"
                         },
-                        "quantity": 1,
-                        "skuConfig": [
+                        "itemCount": 1,
+                        "configurations": [
                             {
-                                "skuId": 901234,
-                                "quantity": 1,
-                                "lineItemNo": 1,
-                                "salePrice": "80000.00",
-                                "lineTotal": "80000.00",
-                                "gstTotal": "9600.00",
-                                "shipTotal": "400.00",
-                                "shipDiscountTotal": "50.00"
+                                "itemCode": 901234,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "80000.00",
+                                "totalPrice": "80000.00",
+                                "taxTotal": "9600.00",
+                                "shippingFee": "400.00",
+                                "shippingDiscount": "50.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 80000,
+                    "totalPaid": 80000,
                     "currency": "PHP",
-                    "discountAmount": 50,
-                    "method": "Paypal",
-                    "orderTotal": 80000,
-                    "shipCost": 400
+                    "discountValue": 50,
+                    "paymentType": "Paypal",
+                    "finalTotal": 80000,
+                    "shippingCharge": 400
                 },
-                "salesChannel": {
-                    "code": "LAZADA",
-                    "id": 1
+                "platform": {
+                    "platformCode": "LAZADA",
+                    "platformId": 1
                 }
             }
         }
     },
     {
-        "data": {
-            "orderCode": "PH88990011",
-            "orderFulfilledBy": "Shopee",
-            "order": {
-                "customer": {
+        "transaction": {
+            "transactionId": "PH88990011",
+            "serviceProvider": "Shopee",
+            "details": {
+                "buyer": {
                     "address": {
-                        "country": "Philippines",
-                        "postcode": "8000",
-                        "Province": "Davao del Sur",
-                        "districtOrCity": "Davao City"
+                        "nation": "Philippines",
+                        "buyerZip": "8000",
+                        "region": "Davao del Sur",
+                        "cityArea": "Davao City"
                     },
-                    "id": 8000
+                    "buyerId": 8000
                 },
-                "datePurchased": "2023-12-01T13:00:00+08:00",
-                "delivery": {
-                    "country": "Philippines",
-                    "postcode": "8000",
-                    "Province": "Davao del Sur",
-                    "districtOrCity": "Davao City"
+                "purchaseTimestamp": "2023-12-01T13:00:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "8000",
+                    "region": "Davao del Sur",
+                    "cityArea": "Davao City"
                 },
-                "id": 345678,
-                "lines": [
+                "purchaseId": 345678,
+                "items": [
                     {
-                        "id": 901234,
-                        "product": {
-                            "id": 890123,
-                            "sellerId": 80,
-                            "title": "Acer Predator"
+                        "transactionLineId": 901234,
+                        "item": {
+                            "productCode": 890123,
+                            "merchantCode": 80,
+                            "itemName": "Acer Predator"
                         },
-                        "quantity": 1,
-                        "skuConfig": [
+                        "itemCount": 1,
+                        "configurations": [
                             {
-                                "skuId": 123456,
-                                "quantity": 1,
-                                "lineItemNo": 1,
-                                "salePrice": "70000.00",
-                                "lineTotal": "70000.00",
-                                "gstTotal": "8400.00",
-                                "shipTotal": "350.00",
-                                "shipDiscountTotal": "0.00"
+                                "itemCode": 123456,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "70000.00",
+                                "totalPrice": "70000.00",
+                                "taxTotal": "8400.00",
+                                "shippingFee": "350.00",
+                                "shippingDiscount": "0.00"
                             }
                         ]
                     }
                 ],
                 "payment": {
-                    "amount": 70000,
+                    "totalPaid": 70000,
                     "currency": "PHP",
-                    "discountAmount": 0,
-                    "method": "GCash",
-                    "orderTotal": 70000,
-                    "shipCost": 350
+                    "discountValue": 0,
+                    "paymentType": "GCash",
+                    "finalTotal": 70000,
+                    "shippingCharge": 350
                 },
-                "salesChannel": {
-                    "code": "SHOPEE",
-                    "id": 2
+                "platform": {
+                    "platformCode": "SHOPEE",
+                    "platformId": 2
+                }
+            }
+        }
+    },
+    {
+        "transaction": {
+            "transactionId": "PH99001122",
+            "serviceProvider": "Amazon",
+            "details": {
+                "buyer": {
+                    "address": {
+                        "nation": "Philippines",
+                        "buyerZip": "1200",
+                        "region": "Metro Manila",
+                        "cityArea": "Makati"
+                    },
+                    "buyerId": 9000
+                },
+                "purchaseTimestamp": "2024-01-05T09:00:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "1200",
+                    "region": "Metro Manila",
+                    "cityArea": "Makati"
+                },
+                "purchaseId": 654321,
+                "items": [
+                    {
+                        "transactionLineId": 678910,
+                        "item": {
+                            "productCode": 112233,
+                            "merchantCode": 90,
+                            "itemName": "Bose Headphones"
+                        },
+                        "itemCount": 2,
+                        "configurations": [
+                            {
+                                "itemCode": 456789,
+                                "configQuantity": 2,
+                                "lineNumber": 1,
+                                "itemPrice": "12000.00",
+                                "totalPrice": "24000.00",
+                                "taxTotal": "2880.00",
+                                "shippingFee": "200.00",
+                                "shippingDiscount": "0.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "totalPaid": 24000,
+                    "currency": "PHP",
+                    "discountValue": 0,
+                    "paymentType": "Credit Card",
+                    "finalTotal": 24000,
+                    "shippingCharge": 200
+                },
+                "platform": {
+                    "platformCode": "AMAZON",
+                    "platformId": 3
+                }
+            }
+        }
+    },
+    {
+        "transaction": {
+            "transactionId": "PH11223355",
+            "serviceProvider": "Alibaba",
+            "details": {
+                "buyer": {
+                    "address": {
+                        "nation": "Philippines",
+                        "buyerZip": "4002",
+                        "region": "Laguna",
+                        "cityArea": "San Pablo"
+                    },
+                    "buyerId": 7000
+                },
+                "purchaseTimestamp": "2024-02-20T11:15:00+08:00",
+                "shipping": {
+                    "nation": "Philippines",
+                    "shippingZip": "4002",
+                    "region": "Laguna",
+                    "cityArea": "San Pablo"
+                },
+                "purchaseId": 223344,
+                "items": [
+                    {
+                        "transactionLineId": 334455,
+                        "item": {
+                            "productCode": 445566,
+                            "merchantCode": 100,
+                            "itemName": "LG Refrigerator"
+                        },
+                        "itemCount": 1,
+                        "configurations": [
+                            {
+                                "itemCode": 556677,
+                                "configQuantity": 1,
+                                "lineNumber": 1,
+                                "itemPrice": "45000.00",
+                                "totalPrice": "45000.00",
+                                "taxTotal": "5400.00",
+                                "shippingFee": "500.00",
+                                "shippingDiscount": "0.00"
+                            }
+                        ]
+                    }
+                ],
+                "payment": {
+                    "totalPaid": 45000,
+                    "currency": "PHP",
+                    "discountValue": 0,
+                    "paymentType": "Bank Transfer",
+                    "finalTotal": 45000,
+                    "shippingCharge": 500
+                },
+                "platform": {
+                    "platformCode": "ALIBABA",
+                    "platformId": 4
                 }
             }
         }
